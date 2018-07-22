@@ -1,0 +1,26 @@
+html {
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+  background-color: white;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+}
+
+.graysmoke {
+  background-color: whitesmoke;
+}
+
+.main-content {
+  position: relative;
+  top: 4.3125rem; /* To offset for fixed header. */
+}
+
+.content {
+  display: flex;
+  padding: 2rem 1.5rem;
+}
+
+/* header section style */
