@@ -42,7 +42,12 @@ header .content {
 header .logo {
   display: flex;
   flex-grow: 1;
-  height: 32px;
+  padding: 0;
+}
+
+.logo img {
+height: 32px;
+max-width: 100%;
 }
 
 header .mobile {
