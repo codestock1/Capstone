@@ -83,3 +83,40 @@ nav li {
     padding: 16px 16px 32px 16px;
   }
 }
+
+/* banner section */
+
+.banner img {
+  width: 60%
+}
+
+.banner-text {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-text .button {
+  display: block;
+  padding: 8px 0;
+  background-color: dimgray;
+  /* font-family: "Verdana", sans-serif; */
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 760px) {
+  .banner {
+    flex-direction: column;
+  }
+  .banner img {
+    width: 100%;
+  }
+
+  .banner {
+    padding: 0;
+  }
+
+  .banner
+}
+
+/* practice section */
