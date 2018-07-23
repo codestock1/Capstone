@@ -220,3 +220,41 @@ nav li {
   max-width: 100%;
   height: auto;
 }
+
+/* Thesis */
+
+.largecolumn video {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 760px) {
+  .learnitems {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:  column;
+  }
+
+  .learnitems .desktop {
+    display: none;
+  }
+
+  .lrnitem {
+    padding: 0;
+    width: 100%;
+  }
+
+  .lrnitem h2 {
+    margin: 4px 0;
+    padding: 16px 16px 24px 16px;
+    background-color: whitesmoke;
+  }
+
+  .lrnitem p {
+    display: none;
+  }
+
+  .learning {
+    background-color: inherit;
+  }
+}
