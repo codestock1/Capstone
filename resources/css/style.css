@@ -187,3 +187,36 @@ nav li {
     display: none;
   }
 }
+
+/* Learning sectoin */
+
+.learning {
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+
+
+.learning_header {
+  text-align: center;
+}
+
+.learnitems {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lrnitem {
+  margin: 0;
+  padding: 16px;
+  width: 30%;
+}
+
+.lrnitem img {
+  max-width: 100%;
+  height: auto;
+}
