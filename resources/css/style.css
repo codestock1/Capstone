@@ -120,3 +120,70 @@ nav li {
 }
 
 /* practice section */
+
+.largecolumn {
+  flex-direction: column;
+  max-width: 60%;
+  padding-right: 1.5rem;
+}
+
+.largecolumn img {
+  max-width: 100%;
+}
+
+.rowitem {
+  display: flex;
+}
+
+.rowitem .desktop {
+  height: auto;
+  max-width: 35%;
+  padding: 16px;
+}
+
+.rowitem .mobile {
+  display: none;
+}
+
+.item_detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 65%;
+}
+
+@media only screen and (max-width: 760px) {
+  .practice .largecolumn {
+    display: none;
+  }
+
+  .rowitem {
+    flex-direction: column;
+    padding-bottom: 16px;
+  }
+
+  .rowitem .desktop {
+    display: none;
+  }
+
+  .rowitem .mobile {
+    display: flex;
+    max-width: 100%;
+  }
+
+  .itemlist .graysmoke {
+    background-color: inherit;
+  }
+
+  .thesis .itemlist {
+    display: none;
+  }
+
+  .thesis .largecolumn {
+    max-width: 100%
+  }
+
+  .thesis .largecolumn h1, .thesis .largecolumn p {
+    display: none;
+  }
+}
